@@ -22,7 +22,7 @@
   <body>
     
     <!-- background -->
-    <img src="assets/vector-bg.png" class="bg" width="50%">
+    <img src="assets/vector-bg.png" class="bg" width="40%">
 
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
@@ -87,13 +87,13 @@
     </div>
 
     <!-- tentang -->
-    <div class="container-fluid tentang pt-5 pb-5">
+    <div class="container-fluid tentang pt-5 pb-5" id="tentang">
         
-        <div class="wrapper">
+        <div class="container wrapper">
             <section>
-                <img src="assets/mikir.png" id="tentang" width="45%" height="42%" alt="tentang taken by freepik" href="http://www.freepik.com">
+                <img src="assets/mikir.png" width="50%" height="48%" alt="tentang taken by freepik" href="http://www.freepik.com">
                 <div class="kolom">
-                    <br><br><br>
+                    <br><br>
                     <h5 class="display-3" >Tentang Kami</h5>
                     <br>
                     <p class="paragraf-section">V-ClassBot adalah sebuah layanan aplikasi chatbot V-class Universitas Gunadarma. 
@@ -103,8 +103,7 @@
                         angkatan 2018.
                     Saat mengembangkan layanan ini, ia sedang duduk di semester 6. 
                     </p>
-
-                </div>                
+                </div>                                
             </section>
 
             <div class="card border-lg mb-3" style="max-width: 98%;">
@@ -201,10 +200,12 @@
     <!-- Chatbot Messenger -->
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
     <df-messenger 
+      chat-icon="https://github.com/fifiyott/v-classbot/blob/master/assets/robot.png"
       intent="WELCOME"
       chat-title="V-ClassBot"
       agent-id="0c7201dc-652b-4801-b72e-798941c6e1c2"
       language-code="id"
+      
     >
     
     </df-messenger>
@@ -219,7 +220,7 @@
             $r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
             var sheet = new CSSStyleSheet;
             // manage box height from here
-            sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 400px }`);
+            sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 410px }`);
             $r2.shadowRoot.adoptedStyleSheets = [ sheet ];
             });
         });
