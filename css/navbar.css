@@ -1,0 +1,19 @@
+.bg-active{
+    background-color: transparent;
+    transition: 0.3s;
+    /* color: #6884e7 !important; */
+}
+
+.navbar{
+    width: 100%;
+}
+
+.link-navbar{
+    color: black !important; 
+    transition: 0.3s;
+}
+
+.link-navbar:hover{
+    color: #6884e7 !important;
+    font-weight: bold; 
+}

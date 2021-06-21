@@ -1,0 +1,191 @@
+body{
+    position: relative;
+}
+
+.bg{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+.beranda{
+    background-color: #f8f8f8;
+    z-index: -1;
+}
+
+.tentang{
+    background-color:#f8f8f8;
+    text-align: justify;
+}
+
+.kontak{
+    background-color: #194973;
+    color: #fff;
+    line-height: 30px;
+    height: 270px;
+    border-bottom: 1px solid white;
+}
+
+.tebel-banget{
+    font-weight: 900;
+}
+
+.tebel-sedang{
+    font-weight: bold;
+}
+
+.desc{
+    max-width: 400px;
+}
+
+.button{
+    background-color: #256196;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: #6da0fd;
+    color: white;
+}
+
+.gambar{
+    display: none;
+}
+
+.img{
+    width: 500px;
+    z-index: -1;
+}
+
+.tentang h5{
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tentang h6{
+    font-size: 25px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.tentang p{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.paragraf-section{
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.paragraf-daftar{
+    line-height: 30px;
+    font-size: 15px;
+    margin-top: 20px;
+    color: #616161;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+
+.lingkaran{
+    display: inline-block;
+    border-radius: 50%;
+    width: 80px;
+    margin: auto;
+    height: 80px;
+    color: #fff;
+    background-color: black;
+}
+
+.lingkaran i{
+    position: relative;
+    top: 18px;
+    /* left: 28px; */
+}
+
+.lingkaran-kontak{
+    display: inline-block;
+    border-radius: 50%;   
+    width: 30px;
+    margin: auto;
+    height: 30px;
+    color: black;
+    background-color: rgb(247, 228, 228);
+}
+
+.lingkaran-kontak i{
+    position: relative;
+    left: 7px;
+    top: -1px;
+}
+
+.kontak h6{
+    font-size: 40px;
+    line-height: 80px;
+    margin: 0;
+}
+
+.kontak a{
+    color: #fff;
+}
+
+.card {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+    padding: 25px;
+}
+
+
+footer {
+    background: #194973;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    line-height: 50px;
+}
+
+
+ df-messenger {
+   --df-messenger-bot-message: #df9b56;
+   --df-messenger-button-titlebar-color: #878fac;
+   --df-messenger-chat-background-color: #fafafa;
+   --df-messenger-font-color: white;
+   --df-messenger-send-icon: #df9b56;
+   --df-messenger-user-message: #479b3d;
+  }
