@@ -1,5 +1,5 @@
 .bg-active{
-    background-color: transparent;
+    background-color: transparent !important;
     transition: 0.3s;
     /* color: #6884e7 !important; */
 }
