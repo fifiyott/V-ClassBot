@@ -6,7 +6,7 @@ $(document).ready(function() {
     $r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
     var sheet = new CSSStyleSheet;
     // manage box height from here
-    sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 440px }`);
+    sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 410px }`);
     $r2.shadowRoot.adoptedStyleSheets = [ sheet ];
     });
 });
